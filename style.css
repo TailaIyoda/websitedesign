@@ -1,0 +1,54 @@
+h1 {
+  font-size: 50px; 
+  text-align: center;
+}
+
+p {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 18px;
+}
+
+span {
+    font-size: 50px;
+
+}
+
+.image {
+  background-image: url("Chopin.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  height: 660px;
+}
+
+
+a {
+  font-size: 25px;
+}
+body {
+  background :
+}
+
+.timeline{
+  position:relative;
+  max-width:1200px;
+  margin: 100px auto;
+  
+}
+
+.container {
+    padding: 10px 10px;
+    position:relative;
+    width: 40%;
+    background: #e2e2e2;
+    border-radius: 5px;
+
+}
+.text-box{
+    padding: 20px 30px;
+    background: #fff;
+    position:relative;
+    border-radius: 5px;
+    font-size: 15px
+}
