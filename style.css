@@ -27,7 +27,9 @@ a {
   font-size: 25px;
 }
 body {
-  background :
+  background:url('background.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .timeline{
@@ -76,4 +78,8 @@ body {
   animation: fadeUp linear;
   animation-timeline: view();
   animation-range: entry 0% cover 100%; 
+}
+
+h2 { 
+  text-align: center;
 }
