@@ -70,3 +70,13 @@ body {
 h2 { 
   text-align: center;
 }
+
+ul {
+  position: fixed; 
+  top: 0px;  /*position from the top*/
+  left: 5px;  /*position from the left*/
+  list-style-type: none;
+  padding: 5px 5px;
+  background: #fff;
+  border-radius: 5px;
+}
