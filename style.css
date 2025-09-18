@@ -7,6 +7,9 @@ p {
   margin-left: 300px;
   margin-right: 300px;
   font-size: 18px;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 5px;
 }
 
 span {
@@ -27,9 +30,10 @@ a {
   font-size: 25px;
 }
 body {
-  background:url('background.png');
+  background: url('background.png');
   background-size: cover;
   background-attachment: fixed;
+  
 }
 
 .timeline{
@@ -64,9 +68,7 @@ body {
 
 
 
-.container {
 
-}
 
 h2 { 
   text-align: center;
