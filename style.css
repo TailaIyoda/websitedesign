@@ -19,7 +19,7 @@ span {
 
 .image {
   background-image: url("Chopin.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; /*norepeat to stop weird patterns happening*/
   background-position: center;
   background-size: contain; 
   height: 660px;
@@ -32,7 +32,7 @@ a {
 body {
   background: url('background.png');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; /*background follows the screen*/
   
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-    padding: 10px 10px;
+    padding: 10px 10px; /*made a box for the timeline text*/
     position:relative;
     width: 40%;
     background: #e2e2e2;
@@ -52,15 +52,17 @@ body {
 
 }
 .text-box{
-    padding: 20px 30px;
+    padding: 20px 30px; /* another box inside the containter box*/
     background: #fff;
     position:relative;
     border-radius: 5px;
     font-size: 15px
 }
 
+
+/*change where left and right boxes are to create alternating textboxes */
 .left-container{
-  left:8.4%;
+  left:8.4%; 
 }
 .right-container{
   left: 50%;
@@ -75,7 +77,7 @@ ul {
   position: fixed; 
   top: 0px;  /*position from the top*/
   left: 5px;  /*position from the left*/
-  list-style-type: none;
+  list-style-type: none; /*gets rid of bullet points*/
   padding: 5px 5px;
   background: #fff;
   border-radius: 5px;
